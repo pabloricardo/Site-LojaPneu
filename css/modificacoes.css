@@ -31,3 +31,19 @@ body {
 	margin: 0px;
 }
 
+.resize-none{
+  resize: none; 
+}
+
+.title-contato{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#contato label{
+  font-family: "Courier New", Courier, monospace !important;
+  font-size: 15px;
+}
+
