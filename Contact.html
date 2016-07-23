@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/modificacoes.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script-pages.js"></script>
@@ -21,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Logo</a>
+          <a class="navbar-brand padding-reset" href="#"><img src="img/logo.png" alt="Logo Marca" width="65" height="50"></a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
@@ -29,7 +30,7 @@
             <li class="active"><a href="contact.html">Contato</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../icon/volume-control-phone"><i class="fa fa-volume-control-phone"></i> 9XXXXXXXX</a></li>
+            <li><a href="#"><i class="fa fa-volume-control-phone"></i> +55 (31)3773-5429</a></li>
           </ul>
         </div>
       </div>
@@ -38,18 +39,21 @@
     <div class="container">
       <h1 class="col-sm-offset-5 col-sm-5 title-contato">Contato</h1>
       <form class="form-horizontal col-sm-offset-1 col-sm-11" id="contato">
+
         <div class="form-group">
           <label for="Nome" class="col-sm-2 control-label">Nome</label>
           <div class="col-sm-8">
             <input type="text" class="form-control" id="nome" placeholder="Nome" pattern="[A-Za-z]{2,}" title="Pelo menos 2 letras. Obs: Conter apenas letras." autofocus required tabindex="1">
           </div>
         </div>
+
         <div class="form-group">
           <label for="Email" class="col-sm-2 control-label">Email</label>
           <div class="col-sm-8">
             <input type="email" class="form-control" id="email" placeholder="Email" required tabindex="2">
           </div>
         </div>
+
         <div class="form-group">
           <label for="Assunto" class="col-sm-2 control-label">Assunto</label>
           <div class="col-sm-8">
@@ -70,21 +74,34 @@
             <button type="submit" class="btn btn-primary"  tabindex="5">Enviar</button>
           </div>
         </div>
+
+        <div class="map-responsive">
+          <div class="row">
+            <div class="col-sm-3">
+              <h2>Localização</h2>
+            </div>
+            <div class="col-sm-9">
+              <h4 class="text-left endereco-loja">Rua Afonso Carlos Capanema, 501, Loja 02(Loja no estacionamento do Mart Minas)-Sete Lagoas, MG</h4>
+            </div>
+          </div>
+          <div id="map"></div>
+        </div>
+
       </form>
-
-
     </div>
   </div>
-  <footer id="footer">
+
+  <footer class="footer">
     <div class="col-xs-2 text-footer container-fluid">
-      <p class="text-center margin-reset">Copyright (c) 2015</p>
+      <p class="text-center margin-reset">Copyright (c) 2016</p>
     </div>
     <div class="col-xs-8 text-footer container-fluid ">
-      <p class="text-center margin-reset">Endereço Rua xxxxxxxxxxxx, Nºxxx-Sete Lagoas, MG</p>
+      <p class="text-center margin-reset">Endereço Rua Afonso Carlos Capanema, 501, Loja 02 ( Loja no estacionamento do Mart Minas ) - Sete Lagoas, MG</p>
     </div>
     <div class="col-xs-2 text-footer pull-right container-fluid">
-      <p class="text-center margin-reset"><i class="fa fa-volume-control-phone"></i> 9XXXXXXXX</p>
+      <p class="text-center margin-reset"><i class="fa fa-volume-control-phone"></i> +55 (31)3773-5429</p>
     </div>
   </footer>
+
 </body>
 </html>
