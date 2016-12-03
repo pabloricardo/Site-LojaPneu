@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  font-family: Candara;
 }
 
 #wrap {
@@ -8,6 +9,11 @@ body {
   height: auto;
   margin: 0 auto -50px;
   padding: 0 0 50px;
+  background-color: #f6f6f6;
+}
+
+.navbar{
+  margin-bottom: 0px;
 }
 
 .footer {
@@ -21,10 +27,6 @@ body {
 	padding-top: 15px;
   padding-right:  0px;
   color: black;
-}
-
-.sidenav {
-  height: 100%;
 }
 
 .margin-reset{
@@ -78,3 +80,48 @@ body {
     height: 100px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    min-height: 81px;
+  }
+}
+
+@media screen and (max-width: 392px){
+  .footer {
+    height: 95px;
+  }
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {S
+  margin: auto;
+  height: 300px;
+  width: 100%;
+}
+}
+
+.carousel-inner{
+  height: 300px;
+}
+
+.font-18px{
+  font-size: 18px;
+}
+
+.galeria-fotos{
+  height: 250px;
+  margin-top: 15px;
+}
+
+
+.sidenav {
+  padding-top: 30px;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }

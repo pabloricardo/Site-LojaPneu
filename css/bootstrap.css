@@ -4328,8 +4328,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-nav > li > a {
   padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 20px;
+  padding-bottom: 50px;
+  line-height: 50px;
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
@@ -5663,7 +5663,7 @@ button.list-group-item-danger.active:focus {
   border: 0;
 }
 .panel-group {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .panel-group .panel {
   margin-bottom: 0;

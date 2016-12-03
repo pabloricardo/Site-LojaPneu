@@ -1,0 +1,53 @@
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
+
+Setar usuário
+git config --global user.name "Leonardo Comelli"
+
+Setar email
+git config --global user.email leonardo@software-ltda.com.br
+
+Listar configurações
+git config --list
+
+Verificar estado dos arquivos/diretórios
+git status
+
+Adicionar todos os arquivos/diretórios
+git add .
+
+Comitar informando mensagem
+git commit -m "minha mensagem de commit"
+
+Remover arquivo/diretório
+git rm meu_arquivo.txt
+
+Exibir histórico
+git log
+
+Exibir informações resumidas em uma linha (hash completa e comentário)
+git log --pretty=oneline
+
+Atualizar os arquivos no branch atual
+git pull
+
+Clonar um repositório remoto já existente
+git clone git@github.com:leocomelli/curso-git.git
+
+Criando um novo branch
+git branch nomeDaBranch
+
+Trocando para um branch existente
+git checkout nomeDaBranch
+
+Apagando um branch
+git branch -d bug-123
+
+
+Listar branches
+git branch
+
+Alterando mensagens de commit
+git commit --amend -m "Minha nova mensagem"
+
+Alterando os três últimos commits
+git rebase -i HEAD~3
